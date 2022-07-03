@@ -18,13 +18,10 @@ func _ready():
 func _on_clear_pressed():
 	calculatorNote.text = ""
 
-
-
 func _on_open_pressed():
 	$fileManager/OpenFile_cal.popup()
 func _on_saveas_pressed():
 	$fileManager/saveAsFile_cal.popup()
-
 
 func _on_OpenFile_cal_file_selected(path):
 	var f = File.new()
@@ -36,3 +33,5 @@ func _on_saveAsFile_cal_file_selected(path):
 	f.open(path,2)
 	f.store_string(calculatorNote.text)
 
+func _on_save_pressed():
+	pass # Replace with function body.

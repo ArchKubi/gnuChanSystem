@@ -7,6 +7,10 @@ var TerminalShow = false
 var TextEditorShow = false
 var RunnerShow = false
 var ErrorShow = false
+var MusicPlayer = false
+
+
+var soundShow = false
 
 
 
@@ -24,27 +28,23 @@ we have this much little program:
 """
 
 var neofetch = """
-				   -`                    archkubi@GnuChanOS
-				  .o+`                   ------------------ 
-				 `ooo/                   OS: GnuChanOS x86_64 
-				`+oooo:                  Host: GnuChan Computer System
-			   `+oooooo:                 Kernel: 0.05-riassBobie
-			   -+oooooo+:                Uptime: Allways
-			 `/:-:++oooo+:               Packages: 8 (Anime)
-			`/++++/+++++++:              Shell: bash 0.0.1
-		   `/++++++++++++++:             Resolution: 1280x1012 
-		  `/+++ooooooooooooo/`           WM: GnuChan Desktop v0.01 
-		 ./ooosssso++osssssso+`          WM Theme: gnuchanos-theme 
-		.oossssso-````/ossssss+`         Theme: gnuchanos-theme [GTK2/3] 
-	   -osssssso.      :ssssssso.        Icons: GnuChanOS-icons [GTK2/3] 
-	  :osssssss/        osssso+++.       Terminal: cool-retro-term 
-	 /ossssssss/        +ssssooo/-       CPU: Love
-   `/ossssso+/:-        -:/+osssso+-     GPU: GNU
-  `+sso+:-`                 `.-/+oso:    Memory: Unlimited RAM
- `++:.                           `-/+/
- .`                                 `/                           
-																 
-
+archkubi@GnuChanOS
+------------------ 
+OS: GnuChanOS x86_64 
+Host: GnuChan Computer System
+Kernel: 0.05-riassBobie
+Uptime: Allways
+Packages: 8 (Anime)
+Shell: bash 0.0.1
+Resolution: 1280x1012 
+WM: GnuChan Desktop v0.01 
+WM Theme: gnuchanos-theme 
+Theme: gnuchanos-theme [GTK2/3] 
+Icons: GnuChanOS-icons [GTK2/3] 
+Terminal: cool-retro-term 
+CPU: Love
+GPU: GNU
+Memory: Unlimited RAM
 
 """
 

@@ -23,6 +23,10 @@ func _process(delta):
 			gl.CalculatorShow = true
 			gl.RunnerShow = false
 			runnerLabel.text = ""
+		elif "music player" == runnerLabel.text:
+			gl.MusicPlayer = true
+			gl.RunnerShow = false
+			runnerLabel.text = ""
 
 
 

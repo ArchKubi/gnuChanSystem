@@ -482,11 +482,13 @@ margin_left = -252.0
 margin_top = -296.0
 margin_right = 252.0
 margin_bottom = 296.0
+rect_min_size = Vector2( 150, 52.5 )
+theme = ExtResource( 11 )
 window_title = "Open a File"
 mode = 0
 access = 2
-current_dir = "/home"
-current_path = "/home/"
+current_dir = "/"
+current_path = "/"
 
 [node name="saveAsFile_timer" type="FileDialog" parent="MainWindow/bottomBar/fileManager"]
 anchor_left = 0.5
@@ -497,9 +499,11 @@ margin_left = -252.0
 margin_top = -296.0
 margin_right = 252.0
 margin_bottom = 296.0
+rect_min_size = Vector2( 150, 52.5 )
+theme = ExtResource( 11 )
 access = 2
-current_dir = "/home"
-current_path = "/home/"
+current_dir = "/"
+current_path = "/"
 
 [connection signal="pressed" from="MainWindow/tittleBar/close" to="." method="_on_close_pressed"]
 [connection signal="pressed" from="MainWindow/bottomBar/timerMinute/Menu/start" to="." method="_on_start_pressed"]
