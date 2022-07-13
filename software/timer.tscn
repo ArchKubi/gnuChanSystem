@@ -389,6 +389,7 @@ custom_styles/normal = ExtResource( 4 )
 text = "clear"
 
 [node name="save" type="Button" parent="MainWindow/bottomBar/exktra_panel/menu/bg"]
+visible = false
 margin_left = 144.0
 margin_top = 16.085
 margin_right = 264.0
@@ -487,8 +488,8 @@ theme = ExtResource( 11 )
 window_title = "Open a File"
 mode = 0
 access = 2
-current_dir = "/"
-current_path = "/"
+current_dir = "/home"
+current_path = "/home/"
 
 [node name="saveAsFile_timer" type="FileDialog" parent="MainWindow/bottomBar/fileManager"]
 anchor_left = 0.5
@@ -502,8 +503,8 @@ margin_bottom = 296.0
 rect_min_size = Vector2( 150, 52.5 )
 theme = ExtResource( 11 )
 access = 2
-current_dir = "/"
-current_path = "/"
+current_dir = "/home"
+current_path = "/home/"
 
 [connection signal="pressed" from="MainWindow/tittleBar/close" to="." method="_on_close_pressed"]
 [connection signal="pressed" from="MainWindow/bottomBar/timerMinute/Menu/start" to="." method="_on_start_pressed"]

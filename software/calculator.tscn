@@ -663,6 +663,7 @@ custom_styles/normal = ExtResource( 8 )
 text = "clear"
 
 [node name="save" type="Button" parent="MainWindow/bottomBar/exktra_panel/menu/bg"]
+visible = false
 margin_left = 168.0
 margin_top = 32.0
 margin_right = 288.0
@@ -761,8 +762,8 @@ theme = ExtResource( 7 )
 window_title = "Open a File"
 mode = 0
 access = 2
-current_dir = "/Users/winfart/Documents/GitHub/gnuChanSystem"
-current_path = "/Users/winfart/Documents/GitHub/gnuChanSystem/"
+current_dir = "/home/"
+current_path = "/home/"
 
 [node name="saveAsFile_cal" type="FileDialog" parent="MainWindow/bottomBar/exktra_panel/fileManager"]
 anchor_left = 0.5
@@ -776,8 +777,8 @@ margin_bottom = 296.0
 rect_min_size = Vector2( 150, 52.5 )
 theme = ExtResource( 7 )
 access = 2
-current_dir = "/"
-current_path = "/"
+current_dir = "/home"
+current_path = "/home/"
 
 [node name="DebugLog" type="Panel" parent="MainWindow/bottomBar"]
 margin_left = -1.0

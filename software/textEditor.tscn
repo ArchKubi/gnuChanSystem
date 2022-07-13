@@ -198,6 +198,7 @@ custom_styles/normal = ExtResource( 6 )
 text = "Open File"
 
 [node name="savefile" type="Button" parent="MainWindow/menu"]
+visible = false
 margin_left = 460.0
 margin_right = 665.0
 margin_bottom = 72.0
@@ -260,8 +261,8 @@ margin_bottom = -210.0
 rect_min_size = Vector2( 150, 52.5 )
 theme = ExtResource( 10 )
 access = 2
-current_dir = "/"
-current_path = "/"
+current_dir = "/home"
+current_path = "/home/"
 
 [connection signal="pressed" from="MainWindow/tittleBar/close" to="." method="_on_close_pressed"]
 [connection signal="pressed" from="MainWindow/menu/newfile" to="." method="_on_newfile_pressed"]
