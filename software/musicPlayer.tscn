@@ -206,8 +206,8 @@ window_title = "Open a File"
 resizable = true
 mode = 0
 access = 2
-current_dir = "/Users/winfart/Documents/GitHub/gnuChanSystem"
-current_path = "/Users/winfart/Documents/GitHub/gnuChanSystem/"
+current_dir = "/Users/wolfteam/Documents/GitHub/gnuChanSystem"
+current_path = "/Users/wolfteam/Documents/GitHub/gnuChanSystem/"
 
 [node name="musicPlayer" type="AudioStreamPlayer" parent="MainWindow/bottomBar"]
 

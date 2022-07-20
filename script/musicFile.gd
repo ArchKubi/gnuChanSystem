@@ -3,7 +3,7 @@ extends Panel
 
 
 func _on_openMusic_pressed():
-	$openMusicFile.visible = true
+	$openMusicFile.popup_centered()
 
 func _on_openMusicFile_file_selected(path):
 	var song : AudioStream = load(path)

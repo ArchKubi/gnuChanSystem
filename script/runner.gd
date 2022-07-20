@@ -4,7 +4,7 @@ extends Panel
 onready var runnerLabel = get_node("bg/inputRunner")
 
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("enter"):
 
 		if "editor" == runnerLabel.text:

@@ -10,7 +10,7 @@ var outputText = ""
 func _ready():
 	outputTerm.text = gl.welcomeTerminal
 
-func _process(delta):
+func _process(_delta):
 	inputText  = inputTerm.text
 
 	if Input.is_action_just_pressed("enter") and gl.TerminalShow == true:

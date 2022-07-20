@@ -15,7 +15,7 @@ var timerLabelPluss = ""
 
 var lapseText = ""
 
-func _process(delta):
+func _process(_delta):
 
 	timerLabelPluss = "Second:" + str(int(second)) + "\n" + "Minute:" + str(minute) + "\n" + "Hour:" + str(hour)
 	timerLabel.text = timerLabelPluss

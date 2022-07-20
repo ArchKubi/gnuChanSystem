@@ -31,6 +31,7 @@ func _on_saveAsFile_file_selected(path):
 
 
 func _on_savefile_pressed(path):
+	# ı don't know how
 	pass
 
 func _on_newfile_pressed():
