@@ -762,7 +762,7 @@ theme = ExtResource( 7 )
 window_title = "Open a File"
 mode = 0
 access = 2
-current_dir = "/home/"
+current_dir = "/home"
 current_path = "/home/"
 
 [node name="saveAsFile_cal" type="FileDialog" parent="MainWindow/bottomBar/exktra_panel/fileManager"]
